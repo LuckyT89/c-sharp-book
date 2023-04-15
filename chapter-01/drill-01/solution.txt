@@ -1,0 +1,11 @@
+1. Open Visual Studio and select Create a new project.
+
+2. Select Console App and click Next.
+
+3. Choose a name for the project, a location to save, and a name for the solution (note multiple projects belong to one
+ solution). Click Next.
+
+4. Set Framework to .NET 7.0 and click Create. 
+
+5. The new app should be created, now you can run it. Click the triangle icon with the green outline to run the project
+without debugging. Clicking the solid green triangle icon will run with a debugger. 
