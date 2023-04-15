@@ -1,0 +1,13 @@
+1. Navigate to File > Add > New Project.
+
+2. Select Console App and click Next.
+
+3. Name your project and click Next.
+
+4. Select .NET 7.0 and click Create.
+
+5. Modify the console output so it is different from the first project.
+
+6. In the solution explorer, right click on the solution name and select Properties. In Startup Project, select Current 
+selection and click Apply. Note that now when you click on any file inside either project, that project will display in
+bold and that is what will run when you click the green triangle button. 

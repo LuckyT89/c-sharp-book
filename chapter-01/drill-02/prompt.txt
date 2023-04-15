@@ -1,0 +1,1 @@
+Add a second project to the solution and run it. Set the startup project to the current selection.
