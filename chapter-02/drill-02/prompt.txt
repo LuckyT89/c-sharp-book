@@ -1,0 +1,1 @@
+Assign a value to a character variable and display it. Assign a value to a string variable and display it.

@@ -1,0 +1,2 @@
+See screenshot. For the verbatim literal string, this would not work if we did not use the @ symbol because it would
+have read \t inside the string as a tab character. Using the @ will display exactly what is inside the quotes. 

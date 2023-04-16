@@ -1,0 +1,3 @@
+1. With code highlighted, press ctrl + k then ctrl + / to toggle single line comments. 
+
+2. Then press ctrl + shift + / to toggle multi line comments. 
