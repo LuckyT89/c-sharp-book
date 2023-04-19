@@ -1,0 +1,4 @@
+The $ symbols before the string indicate how many curly braces should be used for interpolation. If you put one $ then 
+{} will be read as interpolation. If you put two $ symbols then {{}} will be read as interpolation and so on. This allows
+you to set up your string for instances where there are some places you want to have interpolation and some places where
+you actually want to dispaly curly braces. 
