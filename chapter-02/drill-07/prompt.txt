@@ -1,0 +1,2 @@
+Create a variable for each integer type and display the type of each variable. What should we use most of the time for
+integers as our default type? 
