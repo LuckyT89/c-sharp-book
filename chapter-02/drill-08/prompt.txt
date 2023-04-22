@@ -1,0 +1,2 @@
+Create a variable for each floating point type and display the type of each variable. What should we use most of the
+time for floating point as our default type? 

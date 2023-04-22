@@ -1,0 +1,7 @@
+A number like 0.1 can't be accurately represented as a double because it has infinitely repeating numbers. Using a decimal
+instead is safe because the decimal type just shifts the decimal place over to make it an integer and then shifts it back. 
+For example, 0.1 turns into 1 and then shifts the decimal place back. 
+
+Doubles are ok to use if accuracy is not important or you are only comparing using greater than or less than. Things like
+height are usually ok for this. Things like money should use decimals or anything that will have values compared to each
+other for equality. 

@@ -1,0 +1,1 @@
+Use each of the number suffix types on a variable and display the type. 

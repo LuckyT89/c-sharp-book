@@ -1,0 +1,2 @@
+Note not every integer type has a suffix for some reason. Only uint, long, and ulong have a suffix. All three floating
+point types have a suffix. 

@@ -1,0 +1,3 @@
+Note that when you write a number with a decimal point, it seems to identify it as a double type. If you want it to be
+a float or decimal, you need to add the appropriate suffix at the end of the number even if you are assigning it to a 
+float or decimal variable type. It does not seem like you need to do this with integer numbers. 
