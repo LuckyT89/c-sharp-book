@@ -1,0 +1,1 @@
+Show how to use the dynamic type to store any type of data. Explain why this approach should be avoided. 

@@ -1,0 +1,3 @@
+Most primitive types except string are value types which means they must have a value. String is a reference type which
+means it contains the memory address of a value, not the value itself. All reference types have a default value of null
+which means the variable does not reference anything yet. 

@@ -1,0 +1,2 @@
+See screenshot. Using the object type is flexible because it can store any type of data but this can lead to messy code
+and possibly poor performance. 

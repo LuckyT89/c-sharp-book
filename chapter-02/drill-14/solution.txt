@@ -1,0 +1,5 @@
+The dynamic type should be avoided for the same reasons as using the object type, even more so because it can lead to
+even worse performance. Note that when accessing properties like Length, you do not need to use a cast expression like
+you do with the object type. It will not have IntelliSense when you write the property name and it is up to you to make
+sure the type really does have that property. For example, if you try to use the Length property on a number, it will
+not show any issues until you actually run the program and will throw an exception. 

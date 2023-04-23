@@ -1,0 +1,3 @@
+Local variables are declared inside of methods. They only exist during execution of the method. Local variables can be
+used as shown up to this point, or they can have the type infered by using the var keyword. Note you do not have to use
+var, sometimes it can be better to avoid it to make the code more obvious what the type of a variable is. 

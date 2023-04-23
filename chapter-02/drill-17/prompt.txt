@@ -1,0 +1,1 @@
+Show how to use target-typed new to instatiate an object. 

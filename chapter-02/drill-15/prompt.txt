@@ -1,0 +1,1 @@
+Explain what a local variable is. Show how to use type inference with local variables. 

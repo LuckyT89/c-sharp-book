@@ -1,0 +1,4 @@
+Add the following line at the top of Program.cs so that you can use some types in this namespace:
+using System.Xml;
+
+Give an example of a good way to use var and an example of a bad way to use var.
