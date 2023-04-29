@@ -1,0 +1,8 @@
+Put a ? after the keyword string to remove the first warning. This tells the compiler that we are expecting a possible
+null value and that we will handle this possiblity. 
+
+For the second warning, put a ! before the semi colon at the end of the line. This is the null forgiving operator and
+says that the method is not going to return null so it does not need to warn us. It will be up to us to make sure this
+is true. 
+
+In the case of console apps, ReadLine will always return a string even if it is just an empty string. 

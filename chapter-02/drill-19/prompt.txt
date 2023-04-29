@@ -1,0 +1,2 @@
+Show how to display a string with numbered positional arguments. Show how to do the same thing using the string.Format
+method and how you can write to a line without a new line at the end so that more can be added to the same line. 

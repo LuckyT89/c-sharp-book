@@ -1,0 +1,2 @@
+Show how to capture input from the user and display their name and age that they type in. Show two ways to remove the
+compiler warnings in the code and explain what they are doing.

@@ -1,0 +1,3 @@
+Inside the {} you have the argument index which is optionally followed by a comma for the alignment which is a number
+(positive numbers are right aligned and negative numbers are left aligned within the given number of characters) and
+then optionally follwed by a colon which is the format string. N0 means commas in the thousands place with no decimals.

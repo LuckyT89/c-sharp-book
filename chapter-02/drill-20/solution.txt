@@ -1,0 +1,2 @@
+N0 will add commas in the thousands places as separators and not have any decimal places at the end. C will display the
+number as currency. 
