@@ -1,0 +1,12 @@
+Add the following line to the top of Program.cs:
+using static System.Console;
+
+Now you do not need to add the word Console. before any of the Console methods or properties. This only applies to that
+file. To have this apply to any file in the project, remove the using line at the top and instead open the .csproj file
+by double clicking the project name. Then add the following conent inside the project:
+<ItemGroup>
+	<Using Include="System.Console" Static="true" />
+</ItemGroup>
+
+Now you can use Console methods and properties in any file in the project without having to spell out Console. Note you
+should do this for all projects going forward, will try to follow this for examples in this book. 

@@ -1,0 +1,4 @@
+Right click on the project name in the solution explorer and select properties. Then select the Debug option that appears
+and under the General section select Open debug launch profiles UI. In the command line arguments field at the top you can 
+enter your argument values. Enter red and yellow here and close the window. Add the code shown in the screenshot and run
+the program to see the output. 

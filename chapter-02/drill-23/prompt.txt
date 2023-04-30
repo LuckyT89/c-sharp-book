@@ -1,0 +1,2 @@
+Show how you can import a static class to make it easier to use. Show how to do this for a single file as well as all
+files in a project.

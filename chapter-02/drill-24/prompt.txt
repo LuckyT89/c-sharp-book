@@ -1,0 +1,1 @@
+Show how to capture key input from the user.

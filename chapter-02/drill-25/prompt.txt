@@ -1,0 +1,1 @@
+Show how to pass arguments to a console app. Pass arguments to change the colors of the console app. 
