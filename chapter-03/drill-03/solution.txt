@@ -1,0 +1,2 @@
+The assignment operator just makes code more concise so you can say something like a += 3 instead of typing out the
+longer version of a = a + 3

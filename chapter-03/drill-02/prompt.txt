@@ -1,0 +1,2 @@
+Show how to add, subtract, multiply, divide, and show the remainder of two integer numbers. Show what happens with
+division if one variable switches to a floating point number.

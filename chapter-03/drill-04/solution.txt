@@ -1,0 +1,4 @@
+^ is the exclusive or (XOR) operator which means one thing can be true but not both. 
+Example:
+true ^ false will return true because one value is true.
+true ^ true will return false because both values are true.

@@ -1,0 +1,3 @@
+With a postfix operator, ++ will execute after the assignment and with a prefix operator ++ will execute before the
+assignment. This can be confusing and it is good practice not to combine ++ or -- operators with an = operator in the
+same line. Make them separate statements. 

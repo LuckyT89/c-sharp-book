@@ -1,0 +1,1 @@
+If one variable is a floating point number, division will return a floating point number instead of a whole number. 
