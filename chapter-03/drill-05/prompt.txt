@@ -1,0 +1,2 @@
+Show how to use conditional logical operators. Note you need to write a function at the bottom of the file to be called
+in the example.

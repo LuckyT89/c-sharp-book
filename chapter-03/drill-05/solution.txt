@@ -1,0 +1,2 @@
+It seems like conditional logical operators do the same thing as logical operators but they have the ability to short
+circuit. They use two symbols instead of one, such as && instead of &. 
