@@ -1,0 +1,4 @@
+Using Random.Shared.Next() provides a thread safe way to get a random number. Not sure exactly what that means at this
+point but it seems there are other ways to get a random number that I shouldn't use. Stick with this method. Also remember
+the first number argument you pass in is inclusive and the second number argument is exclusive. So Random.Shared.Next(1,7)
+will generate a random number between 1 and 6, not 1 and 7. 

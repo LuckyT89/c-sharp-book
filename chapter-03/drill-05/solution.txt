@@ -1,2 +1,5 @@
 It seems like conditional logical operators do the same thing as logical operators but they have the ability to short
 circuit. They use two symbols instead of one, such as && instead of &. 
+
+They can make your apps more efficient, but they can also introduce subtle bugs in cases where you assume that the
+function will always be called. It is safest to avoid them when used in combination with functions that cause side effects.

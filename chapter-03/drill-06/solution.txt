@@ -1,0 +1,6 @@
+Basically if you take two variables that are integers and start using the &, |, and ^ operators on them (instead of on
+boolean variables as you normally would) they become bitwise operators which looks at the numbers in binary and returns 
+results based on if there is a one or zero in each column. 
+
+Shift operators such as << move bits around inside a number and can be used to perform some calculations faster than
+using regular arithmetic operators. 
