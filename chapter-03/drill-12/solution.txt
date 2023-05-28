@@ -1,0 +1,3 @@
+I tried to keep this simple, the book used an example with a bunch of different classes and loops. Basically you can
+set a local variable (in this example myDog) and run through different paths based on results of different properties,
+not just checking the results of a single variable or property.

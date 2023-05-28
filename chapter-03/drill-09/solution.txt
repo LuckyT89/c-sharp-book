@@ -1,3 +1,2 @@
-Note you can have goto statements inside your cases which basically point to a section to go to. You can have a goto
-statement that points to another case in the switch statement or it can point to something called a label which is
-basically code outside the switch statment that should be called. Goto statements are generally frowned upon, use sparingly. 
+If you are checking something that could possibly be different types, using pattern matching can make it safer to access
+because you know it is a specific type.

@@ -1,1 +1,1 @@
-Show how to write a switch statement.
+Show how to write an if statement with pattern matching.

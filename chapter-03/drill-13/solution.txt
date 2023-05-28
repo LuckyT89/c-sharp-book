@@ -1,0 +1,2 @@
+This just reduces some of the code you need to write but each case must return a value. The lambda => is used instead
+of the word 'return'. Also the the '_' underscore symbol is used to indicate the default value. This is called a discard.

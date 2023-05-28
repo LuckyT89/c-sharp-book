@@ -1,1 +1,1 @@
-Show how to generate a random number.
+Show how to write a switch statement.

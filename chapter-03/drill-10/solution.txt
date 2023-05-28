@@ -1,4 +1,3 @@
-Using Random.Shared.Next() provides a thread safe way to get a random number. Not sure exactly what that means at this
-point but it seems there are other ways to get a random number that I shouldn't use. Stick with this method. Also remember
-the first number argument you pass in is inclusive and the second number argument is exclusive. So Random.Shared.Next(1,7)
-will generate a random number between 1 and 6, not 1 and 7. 
+Note you can have goto statements inside your cases which basically point to a section to go to. You can have a goto
+statement that points to another case in the switch statement or it can point to something called a label which is
+basically code outside the switch statment that should be called. Goto statements are generally frowned upon, use sparingly. 
