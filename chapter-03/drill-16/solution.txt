@@ -1,0 +1,1 @@
+This seems just like a for loop in javascript. Apparently all three pieces inside the () are optional.

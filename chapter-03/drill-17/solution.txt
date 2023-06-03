@@ -1,0 +1,3 @@
+Note unlike in javascript, when you are looping through each item using foreach, the item is read only meaning you can't 
+change it. In this example you can't change the value of each name inside the loop. If you want to do this, use a regular
+for loop instead.

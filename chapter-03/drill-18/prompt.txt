@@ -1,0 +1,1 @@
+Show how to create an array of strings, then show a shorthand way to do the same thing. 

@@ -1,0 +1,15 @@
+The normal arrays we work with that contain a list of items are single dimensional arrays. You can have a grid of items
+for a two dimensional array or even more, like a cube of items. Then you can use nested loops to go through each item
+and do something with it.
+
+Example:
+1 2 3
+A B C
+
+
+A jagged array is basically when some dimensions have different lengths and it creates a messy structure.
+
+Example:
+A B C D 
+1 2 3
+! @ # $ % ^ &

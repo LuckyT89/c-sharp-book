@@ -1,0 +1,2 @@
+Not sure exactly why we need the new[] part in the shorthand, it seems previous examples in this book have not included
+that part and the array worked. For example, just using string[] names2 = { "Kate", "Jack", "Rebecca", "Tom" };

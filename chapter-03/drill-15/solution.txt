@@ -1,0 +1,2 @@
+A do loop is similar to a while loop except the check is at the bottom of the loop which means it will always run at
+least once. 
