@@ -1,0 +1,7 @@
+When using switch statements we saw you can do pattern matching on items to check its type or properties. When passing
+an array to a switch statement, you can use special pattern matching to check certain things such as is the array empty,
+does the array have three items, or does the array start or end with a specific item.
+
+It seems like arrays are good when you have a known number of items you want to temporarily store but if you want to
+dynamically add or remove items from the list you should choose another collection such as a list. This seems different
+from javascript since we can add and remove things from an array easily. 

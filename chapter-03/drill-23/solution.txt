@@ -1,0 +1,8 @@
+System.Convert has methods that can be used to convert one type to another. This is an alternative to using the cast
+operator. One reason to do this is that when using the cast operator, you can only cast between similar types or between
+a class and its subclasses. For example you can cast a long to another whole number type like an int but you can't cast
+a long to something like a string or a DateTime. Using System.Convert can do this and it will convert to and from all
+number types, booleans, strings, and date and time values.
+
+Note in this example a difference between casting and converting a double. Here converting will round 9.8 up to 10 where
+casting 9.8 cut off the decimal and turned it into 9. 

@@ -1,0 +1,7 @@
+When casting a double to an int, this is unsafe and could lose information. When the double has a decimal place, it will
+cut off anything that comes after the decimal. So 9.8 would just become 9.
+
+Note you can do the same kind of casting between different number types but these can give very strange results when you
+do explicit casting. For example, an int can have a max value of just over 2 billion. If you take a long and set it to
+5 billion and then explicitly cast it as an in, it will have a value of 705,032,704 which doesn't really make sense. It 
+is not as clear as simply removing the decimal place like in the other casting example. 

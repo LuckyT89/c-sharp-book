@@ -1,0 +1,2 @@
+Explain pattern matching with arrays. Not doing an actual example here. Also explain when to use an array and when to
+use a different type. 
