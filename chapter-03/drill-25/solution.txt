@@ -1,0 +1,2 @@
+All types have a ToString method that converts a variable to human readable text. For some types there is not text that 
+makes sense to represent it so it returns their namespace and type name instead- for exmaple objects do this.

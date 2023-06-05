@@ -1,0 +1,17 @@
+C# uses what is called banker's rounding when rounding numbers. Most people are taught that when the decimal part of a 
+number is .5 you round the number up. Banker's rounding says that when the decimal part of a number is .5 you round up 
+if the non-decimal part is odd and round down if the non-decimal part is even.
+
+Normal rounding examples:
+5.5 > 6
+6.5 > 7
+7.5 > 8
+8.5 > 9
+
+Banker's rounding examples:
+5.5 > 6
+6.5 > 6
+7.5 > 8
+8.5 > 8
+
+Note if you want you can control how numbers are rounded using the Round method of the Math class.

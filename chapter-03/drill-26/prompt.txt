@@ -1,0 +1,1 @@
+Explain how to convert from a binary object to a string. No example for this.
