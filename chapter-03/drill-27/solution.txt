@@ -1,0 +1,1 @@
+Parse is the opposite of ToString and only a few types have a Parse method, including all number types and DateTime.

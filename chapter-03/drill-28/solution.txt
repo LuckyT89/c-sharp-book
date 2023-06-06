@@ -1,0 +1,19 @@
+The following code will result in an exception:
+int count = int.Parse("abc");
+
+This is because abc can't be converted to a number. You can use the TryParse method to try to handle this. It returns 
+true if the string can be converted and false if it can't. It also uses the out keyword to set a variable you are 
+trying to update. 
+
+Example:
+
+Write("How many eggs are there? "); 
+string? input = ReadLine();
+if (int.TryParse(input, out int count))
+{
+  WriteLine($"There are {count} eggs.");
+}
+else
+{
+  WriteLine("I could not parse the input.");
+}

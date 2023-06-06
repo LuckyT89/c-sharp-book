@@ -1,0 +1,8 @@
+When you have a binary object like an image or video that you want to either store or transmit, you sometimes do not
+want to send the raw bits because you do not know how those bits could be misinterpreted, for example, by the network 
+protocol transmitting them or another operating system that is reading the stored binary object.
+
+The safest thing to do is to convert the binary object into a string of safe characters. Programmers call this Base64 
+encoding. The Convert type has a pair of methods, ToBase64String and FromBase64String, that perform this conversion.
+
+Note the binary object in this case is an array of bytes (a byte array!!!)
