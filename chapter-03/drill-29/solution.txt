@@ -1,0 +1,3 @@
+Note the book examples may start to allow warnings about nullability for the sake of making example code easier to 
+follow. In this example, 'input' is underlined in green and has a warning about a possible null reference. The book 
+basically says you should handle this in production code but for learning purposes it is ok to leave it like this.
