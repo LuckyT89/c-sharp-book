@@ -1,0 +1,9 @@
+Writing the following line will give you a compile time error, underlined in red:
+int y = int.MaxValue + 1;
+
+This is because it knows that this will result in an overflow and is trying to warn you. If you wrap the code in an 
+unchecked block, you can allow this to happen. View the results and note the behavior. It seems like it is rare that you 
+would ever actually use this. 
+
+Also note it seems like compile time is something that happens as you type out code- things that are underlined in red 
+before you even run the code are issues found at compile time. Run time is what happens when the code actually runs. 

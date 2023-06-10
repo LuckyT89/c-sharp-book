@@ -1,0 +1,6 @@
+When incrementing a number, once it goes above its maximum value, it will overflow to its minimum value and then continue 
+incrementing from there. In the solution, before wrapping the code in a checked block it would write four lines to the 
+console. After wrapping in a checked block it will throw an exception after the overflow and not write the last line.
+
+Note to make the code more friendly you could wrap all of it in a try catch block and output a nicer message when an 
+OverflowException is thrown. 
