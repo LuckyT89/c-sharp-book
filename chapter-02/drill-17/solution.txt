@@ -1,1 +1,1 @@
-Note at the bottom of Program.cs you need to create a Person class. 
+See screenshot.

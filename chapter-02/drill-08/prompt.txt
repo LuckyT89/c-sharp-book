@@ -1,2 +1,2 @@
-Create a variable for each floating point type and display the type of each variable. What should we use most of the
-time for floating point as our default type? 
+Create a variable for each of the 3 floating point types and display the type, min value, and max value of each variable. 
+What should we use most of the time for floating point as our default type? 

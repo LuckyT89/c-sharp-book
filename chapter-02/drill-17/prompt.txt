@@ -1,1 +1,8 @@
 Show how to use target-typed new to instatiate an object. 
+
+Note at the bottom of Program.cs you need to create a Person class:
+
+class Person
+{
+    public DateTime Birthday;
+}
