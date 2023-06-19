@@ -1,4 +1,4 @@
-Casting just means converting something from one type to another. For example if a user enter a string in the console
+Casting just means converting something from one type to another. For example if a user enters a string in the console
 and you need to convert it (cast it) to a number.
 
 Implicit casting happens automatically and is safe because you will not lose any information. Explicit casting must be
