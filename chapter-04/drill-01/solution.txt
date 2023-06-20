@@ -1,0 +1,2 @@
+In console apps you can define a function by writing it at the bottom of Program.cs and then call it in the middle of 
+the file (note it seems you don't have to do this but the book said you do). This creates a local function.
