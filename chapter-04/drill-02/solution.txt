@@ -1,0 +1,20 @@
+Click Project > Add Class
+Give it the name Program.Functions.Class
+
+Erase everything in Program.Function.cs and write in the the code from the screenshot. Now in Program.cs you can call 
+the function. 
+
+Notes about the function:
+TimesTable must have a byte value passed to it as a parameter named number.
+TimesTable can optionally have a byte value passed to it as a parameter named size. If a value is not passed, it defaults to 12.
+TimesTable is a static method because it will be called by the static method <Main>$.
+TimesTable does not return a value to the caller, so it is declared with the void keyword before its name.
+TimesTable uses a for statement to output the times table for the number passed to it with a number of rows equal to size.
+
+You can pass in the name of the parameter as well when you call the function to make it more clear what the values are. 
+Here are some possible ways to call this function:
+
+TimesTable(7);
+TimesTable(number: 7);
+TimesTable(7, 12);
+TimesTable(number: 7, size: 12);
