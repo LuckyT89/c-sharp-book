@@ -1,0 +1,1 @@
+Write a function that returns a value. Keep this code for the next example.

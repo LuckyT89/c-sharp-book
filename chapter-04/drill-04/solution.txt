@@ -1,0 +1,5 @@
+When your cursor is above the first line of a function, add three slashes and automatically generate a comment. You can 
+then fill it out with more information. This is helpful because you can see this info as a tooltip when you are calling 
+the function. 
+
+Don't add comments for local functions but you should do this for all others. 

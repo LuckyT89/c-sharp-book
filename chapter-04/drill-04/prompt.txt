@@ -1,0 +1,1 @@
+Show how to add an XML comment to a function.

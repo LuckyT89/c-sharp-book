@@ -1,0 +1,1 @@
+The return type is listed before the name of the function. In this case the function returns a string.
