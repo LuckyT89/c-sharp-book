@@ -1,0 +1,54 @@
+Click in the margin of the line or while the cursor is on a specific line press F9 to toggle adding or removing a breakpoint
+to that line. Add a breakpoint to the first line and click the green play button (not the green outline button) or press F5 
+to run the project with debugging. 
+
+This starts the program and stops it when it hits a breakpoint. A yellow line will highlight the next line that will be run 
+when it resumes. 
+
+Debugging buttons:
+Start/Continue/F5: This button is context-sensitive. It will either start a project running or continue running the project 
+from the current position until it ends or hits a breakpoint.
+Hot Reload: This button will reload compiled code changes without needing to restart the app.
+Break All: This button will break into the next available line of code in a running app.
+Stop Debugging/Stop/Shift + F5 (red square): This button will stop the debugging session.
+Restart/Ctrl or Cmd + Shift + F5 (circular arrow): This button will stop and then immediately restart the program with 
+the debugger attached again.
+Show Next Statement: This button will move the current cursor to the next statement that will execute.
+Step Into/F11, Step Over/F10, and Step Out/Shift + F11 (blue arrows over dots): These buttons step through the code 
+statements in various ways, as you will see in a moment.
+Show Threads in Source: This button allows you to examine and work with threads in the application that you’re debugging.
+
+Debugging windows:
+VARIABLES, including Locals, which shows the name, value, and type for any local variables automatically. Keep an eye on 
+this window while you step through your code.
+WATCH, or Watch 1, which shows the value of variables and expressions that you manually enter.
+CALL STACK, which shows the stack of function calls.
+BREAKPOINTS, which shows all your breakpoints and allows finer control over them.
+DEBUG CONSOLE or Immediate Window enables live interaction with your code. You can interrogate the program state, for example, 
+by entering the name of a variable. For example, you can ask a question such as “What is 1+2?” by typing 1+2 and pressing Enter.
+
+
+Stepping through code
+Let’s explore some ways to step through the code using either Visual Studio or Visual Studio Code:
+
+Navigate to Run or Debug | Step Into, click on the Step Into button in the toolbar, or press F11. The yellow highlight
+steps forward one line.
+Navigate to Run or Debug | Step Over, click on the Step Over button in the toolbar, or press F10. The yellow highlight 
+steps forward one line. At the moment, you can see that there is no difference between using Step Into or Step Over.
+You should now be on the line that calls the Add method.
+The difference between Step Into and Step Over can be seen when you are about to execute a method call:
+
+If you click on Step Into, the debugger steps into the method so that you can step through every line in that method.
+If you click on Step Over, the whole method is executed in one go; it does not skip over the method without executing it.
+
+Click on Step Into to step inside the method.
+Hover your mouse pointer over the a or b parameters in the code editing window and note that a tooltip appears showing their 
+current value.
+Select the expression a * b, right-click the expression, and select Add to Watch or Add Watch. The expression is added to the 
+WATCH or Watch 1 window, showing that this operator is multiplying a by b to give the result 11.25.
+In the WATCH or Watch 1 window, right-click the expression and choose Remove Expression or Delete Watch.
+Fix the bug by changing * to + in the Add function.
+Stop debugging, recompile, and restart debugging by clicking the circular arrow Restart button or pressing Ctrl or Cmd + Shift + F5.
+Step over the function, take a minute to note how it now calculates correctly, and click the Continue button or press F5.
+With Visual Studio Code, note that when writing to the console during debugging, the output appears in the DEBUG CONSOLE window 
+instead of the TERMINAL window, as shown in Figure 4.8:

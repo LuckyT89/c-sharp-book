@@ -1,0 +1,1 @@
+Show how to write a simple log using both the Debug and Trace classes.

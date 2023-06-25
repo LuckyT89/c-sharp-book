@@ -1,0 +1,15 @@
+Click on the WriteLine statement that outputs the answer.
+Set a breakpoint by pressing F9 or navigating to Run or Debug | Toggle Breakpoint.
+Right-click the breakpoint and select Conditions...
+Type an expression, such as the answer variable must be greater than 9, and then press Enter to accept it, and note the 
+expression must evaluate to true for the breakpoint to activate.
+
+Start debugging and note the breakpoint is not hit.
+Stop debugging.
+Edit the breakpoint or its conditions and change its expression to less than 9.
+Start debugging and note the breakpoint is hit.
+Stop debugging.
+Edit the breakpoint or its conditions (in Visual Studio 2022 click Add condition), select Hit Count, then enter a number 
+such as 3, meaning that you would have to hit the breakpoint three times before it activates.
+
+Hover your mouse over the breakpoint’s red circle to see a summary.

@@ -1,0 +1,8 @@
+In Visual Studio, start the console app and note that the message is output every two seconds.
+
+Change Hello to Goodbye, navigate to Debug | Apply Code Changes or click the Hot Reload button in the toolbar, and note 
+the change is applied without needing to restart the console app.
+
+Drop down the Hot Reload button menu and select Hot Reload on File Save.
+
+Change the message again, save the file, and note the console app updates automatically.

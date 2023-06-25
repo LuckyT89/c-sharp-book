@@ -1,0 +1,11 @@
+Note adding logging to your program seems to be refered to as instrumenting. 
+
+Add the code shown in the screenshot and then click View > Output. The Output window will display, make sure the option 
+for Show output from is set to Debug. Run the program in debug mode (F5) and the two lines you added display in the Output 
+window along with a bunch of other info. 
+
+The Debug class is used to add logging the gets written only during development and the Trace class adds logging the gets 
+written during both development and runtime. 
+
+It seems like the book will cover some basic logging concepts but there are a bunch of third party options that are really 
+popular when it comes to logging. 
