@@ -1,0 +1,8 @@
+Add the additional lines shown in the screenshot. 
+
+There is a Solution Configurations dropdown near the green run triangles in Visual Studio. It should be set to Debug by 
+default. Switch it to Release and then run the program without debugging (gree outline triangle). Note there will be a 
+file on your desktop and when you open it, it will only have the line from the Trace class. 
+
+Now switch the dropdown back to Debug and run it again, open the file and see that it has both log statements. This shows 
+that Debug statements are stripped out automatically when you build the release version of your program.

@@ -1,1 +1,1 @@
-Show how to write a simple log using both the Debug and Trace classes.
+Show how to write a simple log using both the Debug and Trace classes. Leave this code for the next drill.
